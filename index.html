@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>TikTok Clone</title>
+	
+	<link rel="stylesheet" href="style.css" />
+	<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+</head>
+
+<body>
+	<div class="app__videos">
+		<!-- video 1 -->
+		<div class="video">
+			<video class="video__player" src="https://v16-webapp.tiktok.com/755f2eda5849d8084d00f838ebd9c3e4/629668d7/video/tos/useast2a/tos-useast2a-pve-0037-aiso/89b8a4e0d4af42508e0047a33b646dbc/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=2546&bt=1273&btag=80000&cs=0&ds=3&ft=eXd.6HFJMyq8Z_BGvwe2NzXQml7Gb&mime_type=video_mp4&qs=0&rc=NDs5Zzc3ZmRlNWRoOWQzM0BpamRlNjY6ZjU0PDMzZjczM0BfLjVgLjFeNjQxMi9hLjIxYSM2b28wcjRnXy1gLS1kMWNzcw%3D%3D&l=20220531131312010245057184222D2276" autoplay preload="auto" loop></video>
+
+			<!-- sidebar -->
+			<div class="videoSidebar">
+				<div class="img"><img src="https://i.postimg.cc/d3qSy6ZC/Me.jpg" alt=""></div>
+
+				<div class="videoSidebar__button">
+					<p><span id="Hearts">
+							<font size="7">❤</font>
+						</span>
+					<div id="click">500</div>
+					<script>
+						var click = document.getElementById("click");
+						var button = document.getElementById("Hearts");
+						count = 500;
+						button.onclick = function () {
+
+							click.innerHTML = count;
+							count += 1;
+						};
+					</script>
+					</p>
+				</div>
+				<div class="videoSidebar__button">
+					<span class="material-icons">
+						<div class="comment">message
+						</div>
+
+					</span>
+					<p>230</p>
+				</div>
+
+
+				<div class="videoSidebar__button">
+					<span class="material-icons"> share </span>
+					<p>80</p>
+				</div>
+			</div>
+
+			<!-- footer -->
+			<div class="videoFooter">
+				<div >
+					<h3 class="videoFooter__text">💫RIKESH💫</h3>
+					<p class="videoFooter__description">खुशी किन्ने पैशाको रङ कस्तो हुन्छ?त्यही पैशा कमाउनु छ😖🍁#painthis#rashilabasnet#foryou#tiktok#feelthis #fyp@rikeshdahal</p>
+
+					<div class="videoFooter__ticker">
+						<span class="material-icons videoFooter__icon"> music_note </span>
+						<marquee>original sound - jungkookiee<3</marquee>
+					</div>
+				</div>
+				<img src="https://static.thenounproject.com/png/934821-200.png" alt="" class="videoFooter__record" />
+			</div>
+			<div class="prev_next">
+				<div class="btn">
+					<div class="prev">
+						<i class='bx bxs-chevron-left'></i>
+					</div>
+					<div class="next">
+						<i class='bx bxs-chevron-right'></i>
+					</div>
+				</div>
+			</div>
+			<div class="play_pause">
+				<div class="icon">
+					<i class='bx bx-play'></i>
+				</div>
+			</div>
+            <script src="script.js"></script>
+		</div>
+        <!-- video 2 -->
+		<div class="video">
+			<video class="video__player" src="https://v16-webapp.tiktok.com/755f2eda5849d8084d00f838ebd9c3e4/629668d7/video/tos/useast2a/tos-useast2a-pve-0037-aiso/89b8a4e0d4af42508e0047a33b646dbc/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=2546&bt=1273&btag=80000&cs=0&ds=3&ft=eXd.6HFJMyq8Z_BGvwe2NzXQml7Gb&mime_type=video_mp4&qs=0&rc=NDs5Zzc3ZmRlNWRoOWQzM0BpamRlNjY6ZjU0PDMzZjczM0BfLjVgLjFeNjQxMi9hLjIxYSM2b28wcjRnXy1gLS1kMWNzcw%3D%3D&l=20220531131312010245057184222D2276" autoplay preload="auto" loop></video>
+
+			<!-- sidebar -->
+			<div class="videoSidebar">
+				<div class="img"><img src="https://i.postimg.cc/pVS0bzhf/dalli.jpg" alt=""></div>
+
+				<div class="videoSidebar__button">
+					<p><span id="Hearts">
+							<font size="7">❤</font>
+						</span>
+					<div id="click">100</div>
+					
+					</p>
+				</div>
+				<div class="videoSidebar__button">
+					<span class="material-icons">
+						<div class="comment">message
+						</div>
+
+					</span>
+					<p>40</p>
+				</div>
+
+
+				<div class="videoSidebar__button">
+					<span class="material-icons"> share </span>
+					<p>20</p>
+				</div>
+			</div>
+
+			<!-- footer -->
+			<div class="videoFooter">
+				<div >
+					<h3 class="videoFooter__text">R A S H I L A❤️🙏</h3>
+					<p class="videoFooter__description">म आफ्नो बारेमा सोच्दा दुखि हुन्थे अहिले आफ्नाहरुकोबारे सोच्न थालेको छु। Rashila Basnet🖤#Goodmorning🌻#fypシ</p>
+
+					<div class="videoFooter__ticker">
+						<span class="material-icons videoFooter__icon"> music_note </span>
+						<marquee>original sound - Eleena chauhan<3</marquee>
+					</div>
+				</div>
+				<img src="https://static.thenounproject.com/png/934821-200.png" alt="" class="videoFooter__record" />
+			</div>
+            <script src="script.js"></script>
+		</div>
+		
+	</div>
+	
+	<script>
+		const videos = document.querySelectorAll('video');
+  
+		for (const video of videos) {
+		  video.addEventListener('click', function () {
+			console.log('clicked');
+			if (video.paused) {
+			  video.play();
+			  
+			} else {
+			  video.pause();
+			  
+			}
+		  });
+		}
+	  </script>
+	
+</body>
+
+</html>
